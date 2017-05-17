@@ -8,4 +8,14 @@
 4) Applying of a convolution matrix : picture's edges intensification
 5) Negative picture
 
+Original Lena picture :
+![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/lena.bmp)
 
+Original Mountain Lake picture :
+![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/lac_en_montagne.bmp)
+
+Convolution Matrix applied to lena : 
+![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/Convolution.bmp)
+
+Negative applied to Mountain Lake :
+![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/Innovation.bmp)
