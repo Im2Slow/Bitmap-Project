@@ -9,13 +9,13 @@
 5) Negative picture
 
 Original Lena picture :
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/lena.bmp)
+![alt text](https://raw.githubusercontent.com/Im2Slow/Bitmap-Project/branch/path/to/lena.bmp)
 
 Original Mountain Lake picture :
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/lac_en_montagne.bmp)
+![alt text](https://raw.githubusercontent.com/Im2Slow/Bitmap-Project/branch/path/to/lac_en_montagne.bmp)
 
 Convolution Matrix applied to lena : 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/Convolution.bmp)
+![alt text](https://raw.githubusercontent.com/Im2Slow/Bitmap-Project/branch/path/to/Convolution.bmp)
 
 Negative applied to Mountain Lake :
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/Innovation.bmp)
+![alt text](https://raw.githubusercontent.com/Im2Slow/Bitmap-Project/branch/path/to/Innovation.bmp)
