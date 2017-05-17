@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProjetInfo</name>
+    </assembly>
+    <members>
+        <member name="F:ProjetInfo.ImageBitmap.tailleFichier">
+            <summary>
+            Je n'ai pas mis les accents dans les commentaires destiné au fichier XML car certains editeurs de texte comme WordPad n'ont pas l'utf8..
+            </summary>
+        </member>
+        <member name="M:ProjetInfo.ImageBitmap.From_Image_To_File(System.String,System.Byte[])">
+            <summary>
+            Ecriture de fichier
+            </summary>
+            <param name="fileName"> nom que l'on souhaite donner au fichier contenant l'image </param>
+            <param name="fichier"> tableau de bytes contenant l'image a ecrire </param>
+        </member>
+        <member name="M:ProjetInfo.ImageBitmap.Convert_Endian_To_Int(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            Conversion Endian => Int
+            </summary>
+            <param name="fichier"> tableau de bytes contenant l'image </param>
+            <param name="source"> indice de depart dans le tableau </param>
+            <param name="tailleCouple"> nombre de cases que l'ont souhaite prendre en compte a partir de l'indice de depart </param>
+            <returns> Un entier a partir du tableau de bytes converti </returns>
+        </member>
+        <member name="M:ProjetInfo.ImageBitmap.Convert_Int_To_Endian(System.Int32)">
+            <summary>
+            Conversion Int => Endian
+            </summary>
+            <param name="entier"> entier a convertir</param>
+            <returns> tableau de bytes converti a partir de l'entier entre en parametre </returns>
+        </member>
+        <member name="M:ProjetInfo.ImageBitmap.Rotation90(System.Int32[0:,0:])">
+            <summary>
+            Rotation d'angle 90 degres
+            </summary>
+            <param name="board"> matrice d'entiers contenant l'image </param>
+            <returns> nouvelle matrice contenant l'image apres rotation </returns>
+        </member>
+        <member name="M:ProjetInfo.ImageBitmap.Rotation180(System.Int32[0:,0:])">
+            <summary>
+            Rotation d'angle 180 degres
+            </summary>
+            <param name="board"> matrice d'entiers contenant l'image </param>
+            <returns> nouvelle matrice contenant l'image apres rotation </returns>
+        </member>
+        <member name="M:ProjetInfo.ImageBitmap.Rotation270(System.Int32[0:,0:])">
+            <summary>
+            Rotation d'angle 270 degres
+            </summary>
+            <param name="board"> matrice d'entiers contenant l'image </param>
+            <returns> nouvelle matrice contenant l'image apres rotation </returns>
+        </member>
+        <member name="M:ProjetInfo.ImageBitmap.From_Board_To_Array(System.Int32[0:,0:])">
+            <summary>
+            From Board To Array
+            </summary>
+            <param name="board"> Matrice contenant les bytes convertis </param>
+            <returns> Tableau contenant les bytes convertis pret a etre lu </returns>
+        </member>
+        <member name="M:ProjetInfo.ImageBitmap.CreateImage(System.Int32,System.Int32)">
+            <summary>
+            Creation d'image et affichage : initiale du prenom
+            </summary>
+            <param name="hauteur"> dimension 0 de l'image </param>
+            <param name="largeur"> dimension 1 de l'image </param>
+            <returns> matrice d'entiers contenant la nouvelle image </returns>
+        </member>
+        <member name="M:ProjetInfo.ImageBitmap.RenforcementDesBords(System.Int32[0:,0:])">
+            <summary>
+            Matrice de Convolution - Renforcement des Bords
+            </summary>
+            <param name="matrix"> Matrice d'entiers contenant l'image </param>
+            <returns> matrice resultante de l'application du filtre </returns>
+        </member>
+        <member name="M:ProjetInfo.ImageBitmap.Innovation(System.Int32[0:,0:])">
+            <summary>
+            Innovation : filtre negatif
+            </summary>
+            <param name="matrix"> Matrice d'entiers content l'image </param>
+            <returns> matrice resultante de l'application du filtre </returns>
+        </member>
+        <member name="M:ProjetInfo.Program.Affiche_Lecture(System.Byte[])">
+            <summary>
+            Affiche le tableau de bytes entré en paramètres de façon lisible
+            </summary>
+            <param name="tab"> tableau de bytes que l'on souhaite afficher </param>
+        </member>
+    </members>
+</doc>
